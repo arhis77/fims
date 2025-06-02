@@ -1,0 +1,39 @@
+.row {
+	padding: 15px;
+}
+button {
+	cursor: pointer;
+}
+.container {
+	max-width: 95%;
+	margin: 0 auto;
+}
+header .menu {
+	display: flex;
+	gap: 10px;
+}
+header {
+	padding: 15px 0px;
+}
+.film-filters {
+	background-color: #f1f1f1;
+	padding: 10px;
+}
+.film-filters select {
+	width: 100%;
+	margin-bottom: 5px;
+}
+.film-filters > * {
+	margin-bottom: 10px;
+}
+
+.films {
+	display: flex;
+	align-items: flex-start;
+	gap: 25px;
+}
+footer {
+	background-color: #323232;
+	color: white;
+	font-size: 12px;
+}
